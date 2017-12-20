@@ -2,13 +2,17 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const bodyParser = require("body-parser");
-const data = require("./Data/data");
-
+const situationData = require("./Data/data").situationData;
+const songData = require("./Data/data").songData;
 app.use(cors());
 app.use(bodyParser.json());
 
-app.get("/", (request, response) => {
-  response.json(data.dataSet[0].name);
+app.get("/situations", (request, response) => {
+  response.json(situationData);
+});
+
+app.get("/songs", (request, response) => {
+  response.json(songData);
 });
 
 app.post("/", (request, response) => {
