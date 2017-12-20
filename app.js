@@ -8,6 +8,11 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get("/situations", (request, response) => {
+ response.json(situationData);
+});
+
+app.get("/songs", (request, response) => {
+ response.json(songData);
   response.json(situationData);
 });
 
@@ -16,9 +21,9 @@ app.get("/songs", (request, response) => {
 });
 
 app.post("/", (request, response) => {
-  response.json(request.body);
+ response.json(request.body);
 });
 
 app.listen(process.env.PORT || 3000, () => {
-  console.log('listening on port 3000');
+ console.log('listening on port 3000');
 });
