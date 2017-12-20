@@ -11,6 +11,10 @@ const situationData = [{
 		name: "Bathroom",
 		mood: "Party"
 	},{
+		id: 2,
+		name: "Wedding",
+		mood: "Happy"
+	},{
 		id: 3,
 		name: "Brovak's House",
 		mood: "Gay"
@@ -58,6 +62,50 @@ const situationData = [{
 		id: 4,
 		name: "Work",
 		mood: "Busy"
+	},{
+		id: 5,
+		name: "Hackathon Winner",
+		mood: "Joy"
+	},{
+		id: 6,
+		name: "Hackathon Loser",
+		mood: "Sad Panda"
+	},{
+		id: 7,
+		name: "First Date",
+		mood: ""
+	},{
+		id: 8,
+		name: "Bar",
+		mood: ""
+	},{
+		id: 9,
+		name: "Graduation",
+		mood: ""
+	},{
+		id: 10,
+		name: "Reunion (10 Year)",
+		mood: ""
+	},{
+		id: 11,
+		name: "Funeral",
+		mood: ""
+	},{
+		id: 12,
+		name: "Dog's Birthday",
+		mood: ""
+	},{
+		id: 13,
+		name: "Jury Duty",
+		mood: ""
+	},{
+		id: 14,
+		name: "Arrest",
+		mood: ""
+	},{
+		id: 15,
+		name: "One on One with Kyle Coberly",
+		mood: "Exuberance"
 	}
 ];
 

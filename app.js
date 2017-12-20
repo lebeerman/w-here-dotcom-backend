@@ -13,6 +13,11 @@ app.get("/situations", (request, response) => {
 
 app.get("/songs", (request, response) => {
  response.json(songData);
+  response.json(situationData);
+});
+
+app.get("/songs", (request, response) => {
+  response.json(songData);
 });
 
 app.post("/", (request, response) => {
