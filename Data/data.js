@@ -1,11 +1,11 @@
 const situationData = [{
 		id: 14,
 		name: "Arrest",
-		mood: ""
+		mood: "Upset"
 	},{
 		id: 8,
 		name: "Bar",
-		mood: ""
+		mood: "Fun Celebratory"
 	},{
 		id: 1,
 		name: "Bathroom",
@@ -17,19 +17,19 @@ const situationData = [{
 	},{
 		id: 12,
 		name: "Dog's Birthday",
-		mood: ""
+		mood: "Celebratory"
 	},{
 		id: 7,
 		name: "First Date",
-		mood: ""
+		mood: "Anxious"
 	},{
 		id: 11,
 		name: "Funeral",
-		mood: ""
+		mood: "Saddness"
 	},{
 		id: 9,
 		name: "Graduation",
-		mood: ""
+		mood: "Celebratory"
 	},{
 		id: 6,
 		name: "Hackathon Loser",
@@ -41,15 +41,15 @@ const situationData = [{
 	},{
 		id: 13,
 		name: "Jury Duty",
-		mood: ""
+		mood: "Terror"
 	},{
 		id: 15,
 		name: "One on One with Kyle Coberly",
-		mood: ""
+		mood: "Exuberance "
 	},{
 		id: 10,
 		name: "Reunion (10 Year)",
-		mood: ""
+		mood: "Confident"
 	},{
 		id: 2,
 		name: "Wedding",
